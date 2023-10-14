@@ -7,7 +7,7 @@ export default function RestaurantCard({item}) {
     const navigation = useNavigation();
   return (
     <TouchableWithoutFeedback 
-        onPress={()=> navigation.navigate('Restaurant',{...item})}
+        onPress={()=> navigation.navigate('Scan',{...item})}
     >
       <View style={{marginRight: 10, backgroundColor: "white", borderRadius: 10, shadowColor: 'orange',shadowOffset: { width: 0, height: 2 },shadowOpacity: 0.2, shadowRadius: 4}}>
         <Image style={{height: 120, width: 260, borderTopLeftRadius: 10, borderTopRightRadius: 10}} source={item.image} />
