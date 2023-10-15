@@ -56,7 +56,7 @@ export default function HomeScreen({item}) {
                     <Icon.MapPin strokeWidth={2} stroke={'#FF8C00'} height={30} width={30}/>
                 </TouchableWithoutFeedback>
                 <TouchableWithoutFeedback onPress={()=> scanpage.navigate('Scan')}>
-                    <View style={{borderRadius:50, padding: 20, backgroundColor:'green', bottom: 30 }}>
+                    <View style={{borderRadius:50, padding: 20, backgroundColor:'#FF8C00', bottom: 30 }}>
                         <Image style={{width: 30, height: 30}} source={require('../assets/images/scanning.png')}/>
                     </View>
                 </TouchableWithoutFeedback>

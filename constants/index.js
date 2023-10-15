@@ -211,24 +211,24 @@ export const featured = [
 export const recommendations = [
     {
         id: 1,
-        name: 'Cúp nước',
-        time: '10:30 pm, 12 Oct',
-        location: 'Toà B',
+        name: 'Plastic',
         image: require('../assets/images/MustardCoffee.jpg'),
     },
     {
         id: 2,
-        name: 'Nhặt được của rơi',
-        time: '9:00 am, 16 Oct',
-        location: 'Ghế đá công viên',
+        name: 'Glass',
         image: require('../assets/images/Safari.jpg'),
     },
     {
         id: 3,
-        name: 'Bảo trì thang máy',
-        time: '10:00 am, 20 Oct',
-        location: 'Toà A',
+        name: 'Can',
         image: require('../assets/images/farmCoffee.jpg'),
     },
+    {
+        id: 4,
+        name: 'Fabric',
+        image: require('../assets/images/farmCoffee.jpg'),
+    },
+    
 
 ]
